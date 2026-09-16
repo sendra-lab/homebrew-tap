@@ -4,22 +4,22 @@ class SendraCli < Formula
   version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sendra-lab/Sendra/releases/download/v0.1.0/sendra-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b33e59841f58908f573972d68d2f42d31520fa5931163e11048c7d41b6ad3596"
+      url "https://github.com/sendra-lab/Sendra/releases/download/0.1.0/sendra-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "cb872ef758235cb9679525d0b86bc7fb3275652e7bbb77af9ea11f2234524ce9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sendra-lab/Sendra/releases/download/v0.1.0/sendra-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "a8fe2f78ae999b1a7f3ed6e87781971c369259c9f57a16b5d97b3386a3423b47"
+      url "https://github.com/sendra-lab/Sendra/releases/download/0.1.0/sendra-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "8ad5227686b606db52b605a0abc8780deae1688160cba06a82c13989a737f04b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sendra-lab/Sendra/releases/download/v0.1.0/sendra-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "22e6836530310da63e8f69ec9c57bb05448696339eaf6bf07c8ee5acd1dd809c"
+      url "https://github.com/sendra-lab/Sendra/releases/download/0.1.0/sendra-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "dde04ce28fe21ddf3fa5d9cefff42e88e5486e08551e6926ead0f7530c8de2c9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sendra-lab/Sendra/releases/download/v0.1.0/sendra-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "06d1c52d17e6608b82d5a49a73fdb9d8656baa45557caf02d1b2818ecd72e593"
+      url "https://github.com/sendra-lab/Sendra/releases/download/0.1.0/sendra-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9b2e0e9296d525ca31687823998a94c2b9c3072c6b15e928d22b24686920e8d8"
     end
   end
   license "MIT"
